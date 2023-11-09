@@ -1,0 +1,74 @@
+.add_post *{
+    color: white;
+}
+.add_post{
+    background-color: rgb(36,36,36);
+    padding: 25px;
+    border-radius: 5px;
+}
+.add_post textarea{
+    resize: none;
+}
+.add_post .form-control{
+    transition: all.3s;
+    border-radius: 25px;
+    background-color: rgb(51, 51, 51);
+}
+.add_post .form-control::placeholder{
+    color: white;
+}
+.add_post .form-control:focus {
+    border-radius: 5px;
+    background-color: rgb(94, 94, 94);
+    
+    border: 1px solid white;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.add_post form{
+    display: grid;
+    grid-template-columns: 50% auto ;
+}
+.add_post textarea{
+    min-height: 300px;
+    max-height: 300px;
+}
+.add_post .media-source{
+    background-color: rgb(94, 94, 94);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_post .media-source a{
+    color: white;
+    text-decoration: none;
+}
+.add_post .media-source .fa-x{
+    color: black;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    margin-top: -260px;
+}
+.add_post .media-source img{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(36,36,36);
+}
+.add_post .media-source video{
+    width: 100%;
+    max-height: 100%;
+    background-color: rgb(36,36,36);
+}
+.add_post .publish{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

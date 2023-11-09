@@ -1,0 +1,81 @@
+*{
+    transition: all .3s;
+}
+body{
+    background-color: rgb(56, 56, 56);
+}
+.searchbar {
+    width: 250px;
+    border-radius: 25px;
+    border: 2px solid #e3e7ed;
+}
+.searchbar *{
+    line-height:0px;
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    transition: 1s;
+}
+.searchbar input:focus {
+    text-decoration-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    border:0px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    margin-left: 20px;
+}
+.searchbar i{
+    margin-left: 0px;
+    rotate: 0deg;
+}
+.searchbar #search-animation {
+    margin-left: -450px;
+    rotate: 360deg;
+}
+.filter,.filter-open{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+.filter{
+    margin-top: -237px;
+}
+.filter-open{
+    margin-top: 0px;
+}
+form[class^="container filter"] .form-control{
+    transition: all .3s;
+    background-color: rgb(36,36,36);
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+form[class^="container filter"] select:focus option {
+    background-color: rgb(36,36,36)!important;
+}
+form[class^="container filter"] .form-control:focus {
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    border-radius: 25px;
+}
+.price p{
+    width: 100px;
+}
+.price .ends-at{
+    margin-top: -15px;
+}
+.price .form-control{
+    max-width: 25%;
+    max-height: 30px;
+}
+div[class^="container filter"] .form-control{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.apply-btn{
+    grid-column: 2/3;
+}

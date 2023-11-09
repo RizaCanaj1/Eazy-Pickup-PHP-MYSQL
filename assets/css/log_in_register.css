@@ -1,0 +1,42 @@
+.log_in{
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+    margin: auto;
+    width: 50%;
+}
+.log_in *{
+    transition: all 1s;
+}
+p{
+    color: white;
+}
+.log_in input:not(.checkbox){
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #e3e7ed;
+    background-color: rgba(0, 0, 0, 0);
+    line-height:0px;
+}
+.log_in input:focus{
+    caret-color: rgb(132, 199, 112);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #e3e7ed;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration-color: rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.log_in input::placeholder{
+    color: white;
+}
+.log_in label{
+    margin-left: 1em;
+}
+.log_in a{
+    color:white;
+    text-decoration: none;
+}
+.log_in a:hover{
+    color:rgba(255, 255, 255, 0.5);
+}
